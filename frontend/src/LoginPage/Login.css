@@ -1,0 +1,76 @@
+body{
+    font-family: Poppins;
+}
+.signin1{
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.signin2{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.signin2 form{
+    justify-content: center;
+}
+
+.signin2 h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.signin2 input{
+    width: 70%;
+    height: 40px;
+    margin-bottom: 3%;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px;
+    padding-left: 5%;
+    font-size: 15px;
+    font-family: poppins;
+}
+
+.signin2 button{
+    width: 40%;
+    height: 40px;    
+    border-radius: 5px;
+    border: none;
+    font-family: poppins;
+    background-color: #3AAFA9;
+    color: white;
+
+}
+
+.signin2 button:hover{
+    opacity: 0.7;
+}
+
+.signin2 input[type="checkbox"]{
+    width: 15px;
+    margin-top: 3%;
+}
+
+.signin2 a{
+    text-decoration: none;
+    color: #3AAFA9;
+    font-size: 13px;
+}
+
+.signin2 a:hover{
+    text-decoration: underline;
+}
+
+.signin3{
+    display: flex;
+    justify-content: center;
+
+}
+
+#signin4{
+    margin-top: 0px;
+}

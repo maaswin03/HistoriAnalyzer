@@ -1,0 +1,51 @@
+body{
+  font-family: poppins;
+}
+
+.home1{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.home2{
+  width: 70%;
+  margin: auto
+}
+
+.home2 textarea{
+  width: 93%;
+  font-family: poppins;
+  padding: 3%;
+  font-size: 15px;
+}
+
+.home2 button{
+  width: 100%;
+  margin-top: 3%;
+  background-color: #3AAFA9;
+  border: none;
+  height: 40px;
+  color:white;
+  font-size: 17px;
+}
+
+.home3{
+  width: 90%;
+  margin: auto;
+  background-color: #DEF2F1;
+  margin-top: 10%;
+  padding: 5%;
+}
+
+.home4{
+  width: 90%;
+  margin: auto;
+  font-family: poppins;
+  text-align: justify;
+}
+
+.home4 pre{
+  font-family: poppins;
+  text-align: justify;
+}
