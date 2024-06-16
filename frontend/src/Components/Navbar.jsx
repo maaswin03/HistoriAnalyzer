@@ -1,16 +1,21 @@
 import React from 'react'
-import '../Components/Navbar.css'
+import './Navbar.css'
+import { Link } from 'react-router-dom'
 
 function Navbar() {
     return (
         <div className='nav1'>
-            <div className='nav2 nav3'>
-                <span style={{color:'white',marginLeft: '5%' }}>HistoriAnalayzer</span>
-            </div>
-            <div className='nav2 nav4'>
-                <a href="/">About</a>
-                <a href="/dashboard">Features</a>
-                <a href="/pricing" id="navbar">Contact</a>
+            <div className='nav2'>
+                <div className='nav3 nav5'>
+                    <p style={{ color: 'white' }}>HistoriXpert</p>
+                </div>
+                <div className='nav3 nav6'>
+                    <ul>
+                        <li><Link to='/'>Home</Link></li>
+                        <li><Link to='/chatbot'>ChatBot</Link></li>
+                        <li><Link to='/pricing'>Pricing</Link></li>
+                    </ul>
+                </div>
             </div>
         </div>
     )

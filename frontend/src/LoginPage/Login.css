@@ -21,6 +21,7 @@ body{
 .signin2 h2{
     font-size: 40px;
     font-weight: 600;
+    margin-bottom: 5%;
 }
 
 .signin2 input{
@@ -41,7 +42,7 @@ body{
     border-radius: 5px;
     border: none;
     font-family: poppins;
-    background-color: #3AAFA9;
+    background-color: #268541;
     color: white;
 
 }
@@ -57,7 +58,7 @@ body{
 
 .signin2 a{
     text-decoration: none;
-    color: #3AAFA9;
+    color: #268541;
     font-size: 13px;
 }
 

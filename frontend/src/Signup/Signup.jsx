@@ -11,17 +11,19 @@ function Signup() {
   const [email, setemail] = useState('')
   const [password, setpassword] = useState('')
   const [phone, setphone] = useState('')
+  const navigate = useNavigate()
 
   const handleSignup = async (e) => {
     e.preventDefault()
     try {
-      const response = await fetch('http://127.0.0.1:3000/signup', {
+      const response = await fetch('http://127.0.0.1:5100/signup', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({ firstname, lastname, email, phone, country, dob, password })
       })
+      navigate('/login')
     } catch (error) {
       console.log(error)
     }
@@ -36,8 +38,8 @@ function Signup() {
             <h2>Ai Account</h2>
           </div>
           <div className='signup3 signup4'>
-            <p><a href="/signin">Sign in</a></p>
-            <p><a href="/signup">Create Your Account</a></p>
+            <p><Link to="/login">Sign in</Link></p>
+            <p><Link to="/signup">Create Your Account</Link></p>
             <p><a href=''>FAQ</a></p>
           </div>
         </div>
@@ -76,13 +78,13 @@ function Signup() {
             </div>
           </div>
 
-          <div className='signup12' style={{marginBottom:'7%'}}>
+          <div className='signup12' style={{ marginBottom: '7%' }}>
             <div className='signup13'>
-              <div style={{display:'flex',justifyContent:'center',marginTop:'0'}}>
+              <div style={{ display: 'flex', justifyContent: 'center', marginTop: '0' }}>
                 <input type='checkbox' required></input>
-                <p style={{marginLeft:"1%" , fontSize:'15px'}}>Accept Terms & Condition</p>
+                <p style={{ marginLeft: "2%", fontSize: '15px', marginTop: '3%' }}>Accept Terms & Condition</p>
               </div>
-              <p style={{marginTop:'0'}}>Your Ai ID information is used to allow you to sign in securely and access your data. historianalyzer records certain data for security, support and reporting purposes. If you agree, historianalyzer may also use your Ai ID information to send you marketing emails and communications, including based on your use of Ai services. <a href='' style={{ textDecoration: 'none', color: '#3AAFA9' }}>See how your data is managed.</a></p>
+              <p style={{ marginTop: '0' }}>Your Ai ID information is used to allow you to sign in securely and access your data. historianalyzer records certain data for security, support and reporting purposes. If you agree, historianalyzer may also use your Ai ID information to send you marketing emails and communications, including based on your use of Ai services. <a href='' style={{ textDecoration: 'none', color: '#3AAFA9' }}>See how your data is managed.</a></p>
               <button type='submit'>Continue</button>
             </div>
           </div>

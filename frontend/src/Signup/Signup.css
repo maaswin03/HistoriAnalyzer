@@ -1,8 +1,9 @@
+
+
 .signup1{
     width: 100%;
-
-    border-bottom: 1px solid grey;
     display: flex;
+    margin-bottom: 5%;
 }
 
 .signup2{
@@ -17,20 +18,20 @@
     align-items: center;
 }
 .signup3 h2{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-weight: 600;
     font-size: 20px;
 }
 
 .signup3 a{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 10px;
     font-size: 12px;
 }
 
 .signup3 a:hover{
-    color: #3AAFA9;
+    color: #268541;
 }
 
 .signup4{
@@ -47,7 +48,6 @@
     width: 100%;
     margin: auto;
     margin-bottom: 0;
-    border-bottom: 1px solid rgb(219, 219, 219);
 }
 
 .signup7{
@@ -68,7 +68,6 @@
     font-size: 15px;
     font-family: poppins;
     border-radius: 5px;
-    border:1px solid grey;
 }
 
 .signup9{
@@ -85,7 +84,6 @@
     font-size: 15px;
     font-family: poppins;
     border-radius: 5px;
-    border:1px solid grey;
 }
 
 .signup10{
@@ -96,7 +94,6 @@
 
 .signup14{
     width: 100%;
-    border-bottom: 1px solid rgb(219, 219, 219);
 }
 
 .signup11{
@@ -112,7 +109,6 @@
     font-size: 15px;
     font-family: poppins;
     border-radius: 5px;
-    border:1px solid grey;
 }
 
 .signup11 input[type="email"]{
@@ -145,7 +141,7 @@
     padding: 10px;
     margin-top: 3%;
     width: 30%;
-    background-color: #3AAFA9;
+    background-color: #268541;
     font-family: poppins;
     color: white;
     border: none;
